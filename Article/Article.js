@@ -3,7 +3,7 @@
 class Article {
   constructor(domElement) {
     // assign this.domElement to the passed in domElement
-    this.domElement;
+    this.domElement = newArticle.querySelector('.');
     // create a reference to the ".expandButton" class. 
     this.expandButton;
     // Using your expandButton reference, update the text on your expandButton to say "expand"
@@ -26,4 +26,5 @@ class Article {
 
 */
 
-let articles;
+let articles = document.querySelectorsAll('.article');
+articles.forEach(article => new Article(article));
