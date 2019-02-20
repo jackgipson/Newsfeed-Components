@@ -34,4 +34,4 @@ class Article {
 */
 
 let articles = document.querySelectorAll('.article');
-articles.forEach(article => new Article(article)); // The new Variable has to be declared below everything else
+articles.forEach(domElement => new Article(domElement)); // The new Variable has to be declared below everything else
