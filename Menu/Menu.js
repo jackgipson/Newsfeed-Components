@@ -16,4 +16,3 @@ menuButton.addEventListener('click', e => {
 });
 
 TweenMax.to('.menu-button', 10, {left:600, ease:Elastic.easeOut});  // animation sliding the menu hamburger with elastic snapback
-//TweenMax.to('h2', 2, {left:600});
